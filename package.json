@@ -1,0 +1,26 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Application for task management",
+  "main": "app.js",
+  "repository": "https://github.com/francislagueu/todo_list.git",
+  "author": "Francis Lagueu",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon -r dotenv/config src/app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "joi": "^14.0.2",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.8",
+    "volleyball": "^1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
